@@ -1,2 +1,2 @@
 # MyProjects
-My privat projects
+Here you can find a collection of my privat projects.
