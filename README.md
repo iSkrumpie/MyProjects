@@ -5,4 +5,4 @@ Here you can find a collection of my privat projects:
 
 [Portscanner](https://github.com/iSkrumpie/MyProjects/tree/master/Portscanner) - Scan for open ports at a given host.
 
-[GenPw](https://github.com/iSkrumpie/MyProjects/tree/master/GenPW) - Generate a random password with a lengh of 26.
+[GenPw](https://github.com/iSkrumpie/MyProjects/tree/master/GenPw) - Generate a random password with a lengh of 26.
