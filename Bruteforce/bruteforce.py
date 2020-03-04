@@ -25,7 +25,6 @@ def findPassword(chars, function, show=50, format_="%s"):
 
     return password, attempts
 
-
 def getChars():
 
     chars = []
