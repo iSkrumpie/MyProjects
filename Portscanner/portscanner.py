@@ -3,18 +3,18 @@ import subprocess
 import sys
 from datetime import datetime
 
-subprocess.call('clear', shell=True)
-
-remoteServer = input("Enter a remote host to scan: ")
-remoteServerIP = socket.gethostbyname(remoteServer)
-
-print("-" * 60)
-print("Please wait, scanning remote host", remoteServerIP)
-print("-" * 60)
-
-t1 = datetime.now()
-
 try:
+    subprocess.call('clear', shell=True)
+
+    remoteServer = input("Enter a remote host to scan: ")
+    remoteServerIP = socket.gethostbyname(remoteServer)
+
+    print("-" * 60)
+    print("Please wait, scanning remote host", remoteServerIP)
+    print("-" * 60)
+
+    t1 = datetime.now()
+
     for port in range(1, 1025):
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         result = sock.connect_ex((remoteServerIP, port))
